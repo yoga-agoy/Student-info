@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>YOGO CREA</title>
+    <link rel="icon" type="image/x-icon" href="https://o.remove.bg/downloads/95a99f31-0315-484f-9363-c2b00fa17fb1/3d-bold-funny-letter-y-heavy-type-for-modern-super-hero-monogram-prize-logo-comic-graphic-fun-and-cool-poster-and-education-game-extrude-style-2B1JPXK-removebg-preview.png">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/9062738dd6.js" crossorigin="anonymous"></script>
+</head>
+
+
+    <style>
+   *{
+        box-sizing :border-box;
+        padding:0;
+        margin:0;
+        text-decoration: none;
+        list-style:none;
+
+    }
+
+    body{
+      
+        font-family:'Montserrat';
+        margin:0;
+        background-image:url('https://img.freepik.com/free-vector/programmers-working-freelancers-blogger-students-homework-digital-computer-pc-laptop-nowaday-vector-character-freelancer-professional-working-development-work-illustration_80590-11870.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    
+    label.logo{
+        color:rgb(255, 159, 4);
+        font-size:14px;
+        line-height: 60px;
+        padding:0 30px;
+        font-weight: bold;
+    }
+    nav{
+        background:#3294f5;
+        height: 60px;
+        width: 100%;
+    }
+    nav ul{
+        float:right;
+        margin-right:20px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height:60px;
+        margin:0 5px;
+    }
+    nav ul li a{
+        color:rgb(255, 255, 255);
+        font-size: 10px;
+        padding: 7px 10px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    a.active,a:hover{
+        background:#47a8f1;
+        transition:.5s;
+      
+    }
+    .checkbtn{
+        font-size: 20px;
+        color:white;
+        float:right;
+        line-height: 70px;
+        margin-right: 20px;
+        cursor:pointer;
+        display:none;
+        
+        
+    }
+   #check{
+       display: none;
+   }
+   @media(max-width:930px){
+       label.logo{
+           font-size:20px;
+           padding-left: 40px;
+
+       }
+       nav ul li a{
+       font-size: 16px;
+   }
+}
+@media (max-width:840px){
+    .checkbtn{
+        display:block;
+    }
+    ul{
+        position:fixed;
+        width:100%;
+        height:100vh;
+        background:#1a2633;
+        top: 60px;
+        left:-100%;
+        text-align:center;
+        transition:all.5s;
+    }
+    nav ul li{
+        display:block;
+        margin:70px o;
+        line-height: 70px;
+
+    }
+    nav ul li a{
+        font-size:15px;
+    
+    }
+    a:hover,a.active{
+        background:none;
+        color:#0082e6;
+    }
+    #check:checked ~ ul{
+             left:0;
+    }
+}
+   
+    table,th,td{
+        width: 100%;
+        border:1px solid rgb(231, 230, 213);
+        text-align:left;
+        color:#f2fa89;
+        background-color: rgba(102, 32, 32, 0.986);
+      
+       background-size: cover;
+       border-collapse:absolute;
+         
+    }
+    th,td{
+        padding:10px;
+        text-align:left;
+        background-size:cover;
+        border-collapse:absolute;
+    
+    
+    }
+    .About{
+        padding:10px;
+        font-size:13px;
+        text-align:left;
+        margin:0;
+        border-collapse:absolute;
+         
+    
+    }
+    #fb{
+        border-color: white;
+        border-style:solid;
+        border-width:thin;
+        display:inline;
+    }
+    #insta{
+        border-color: white;
+        border-style:solid;
+        border-width:thin;
+        display:inline;
+    }
+    #twit{
+        border-color: white;
+        border-style:solid;
+        border-width:thin;
+        display:inline;
+    }
+    </style>
+   
+   
+<body>
+    
+    
+
+  <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+          <i class = "fas fa-bars"></i>
+      </label>
+      <label class="logo">YogoCreationS</label>
+    <ul>
+    <li><a class ="active" href="#" onclick="personal()">Personal Info</a></li>
+    <li><a  href="#" onclick="educational()">Educational Info</a></li>
+    <li><a href="#" onclick="technical ()">Technical Info</a></li>
+    <li><a href="#" onclick="academic()">Academic achievements</a></li>
+    <li><a href="#" onclick="project()">Project Info</a></li>
+    <li><a href="#" onclick="contact()">Contact me</a></li>
+    
+    
+</ul>
+</nav>
+</div>
+
+    <div class ="About" id="per" style="display:none">
+    <table>
+        <tr><td> <b>Name:</b></td><td>   k.yoganandhan</td></tr> 
+       <tr> <td><b>DOB:</b> </td><td>  09-12-1999</td></tr>
+        <tr><td><b>Gender:</b></td> <td>male</td></tr>
+        <tr><td><b>Nationality:</b></td> <td>Indian</td><br>
+        <tr><td><b>Address:</b></td><td>    No:20A Gangai street,<br>Poonganagar,<br>Thiruvallur,<br>Tamilnadu</td></tr>
+    <tr> <td><b>Mail Id:</b> </td> <td>  yogalinking@gmail.com</td></tr>
+       <tr><td><b>Phone No:</b>  </td><td>  8610011680 </td></tr>
+    </table>
+    </div>
+
+<div class="About"  id="edu" style="display:none">
+   <table>
+       <tr><th>Degree</th><th>school/college</th><th>YOP</th><th>Percentage</th></tr>
+       <tr><td>B.E (Computer science Engineering)</td><td>Prathyusha Engineering college</td><td>2022</td><td>75%</td></tr>
+       <tr><td>12<sup>th</sup></td><td>Sri Lakshmi Higher Secondary school</td><td>2017</td><td>70%</td></tr>
+       <tr><td>10<sup>th</sup></td><td>Sri Lakshmi Higher Secondary school</td><td>2015</td><td>84%</td></tr>
+   </table>
+
+</div>
+<div class="About" id="tec"   style="display:none">
+     <table><tr><td><b>WEBSITE FRON END : </b></td><td>HTML,CSS,JAVASCRIPT</td></tr>
+    <tr><td> <b>PROGRAMMING LANGUAGES IN BACKEND :</b></td><td>PYTHON,JAVA</td></tr>
+    <tr><td><b>DATABASE :</b></td><td> MYSQL</td></tr>
+    </table>
+   </div>
+        
+   <div class="About" id="aca"   style="display:none">
+    <table>
+    <tr><td><b>WORKSHIP :</b></td> <td>  AI,IoT</td></tr>
+    <tr><td><b>INTERNSHIP :</b></td><td>: ANDROID DEVELOPER,WEB DEVELOPMENT</td></tr>
+</table>
+  </div>
+
+  <div class="About" id="pro"   style="display:none">
+    <table>
+    <tr><th>PROJECT DOMAIN</th><th>PROJECT TITLE</th></tr>
+      <tr> <td> <b>PROJECT ON ANDROID :</b></td> <td>SIMPLE CALCULATOR APP AND TIC TAC TOE GAME APP<b></tr></td>
+    <tr><td><b>PROJECT ON WEBDEVELOPMENT :</b></td><td>COMPANY INFO DEVEOPLMENT <b></tr></td>
+</table>
+</div>
+<div class="About" id="msg"   style="display:none">
+  
+      
+           <div id="FB"><a href="https://www.facebook.com/yoga.k.92/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/800px-2021_Facebook_icon.svg.png" style ="height:80px;width:90px";></a></div>
+           <div id="insta"><a href="https://www.instagram.com/yoga.k.92/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png" style ="height:80px;width:90px";></a></div><br>
+           <div id="twit"><a href="https://twitter.com/yoganan87537890"><img src="https://pbs.twimg.com/profile_images/1354479896072884225/AaUbc7ao_400x400.jpg" style ="height:80px;width:90px";></a></div>
+  
+
+</div>
+<div  id="reg"  style="display:none">
+    <form method="post">
+        <table >
+            <tbody>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input id="name" maxlenght="50" name="name" type="text"/></td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course:</label></td>
+                    <td><input id="course" maxlenght="50" name="course" type="text"/></td>
+                </tr>
+                <tr>
+                    <td><label for="branch">Branch:</label></td>
+                    <td><input id="branch" maxlenght="50" name="branch" type="text"/></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email_Address:</label></td>
+                    <td><input id="email" maxlenght="50" name="email" type="text"/></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input id="password" maxlenght="50" name="password" type="text"/></td>
+                </tr>
+                <tr>
+                     <td><input name="submit"  type="Submit" value="Add" /></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </form>
+</div>
+
+
+<script >
+
+function registrationdetails(){
+        document.getElementById("per").style.display="none";
+        document.getElementById("edu").style.display="none";
+        document.getElementById("tec").style.display="none";
+        document.getElementById("aca").style.display="none";
+        document.getElementById("pro").style.display="none";
+        document.getElementById("msg").style.display="none";
+        document.getElementById("reg").style.diplay="block";
+}
+
+
+    function personal(){
+        document.getElementById("per").style.display="block";
+        document.getElementById("edu").style.display="none";
+        document.getElementById("tec").style.display="none";
+        document.getElementById("aca").style.display="none";
+        document.getElementById("pro").style.display="none";
+        document.getElementById("msg").style.display="none";
+        document.getElementById("reg").style.diplay="block";
+    }
+    function educational(){
+        document.getElementById("per").style.display="none";
+        document.getElementById("edu").style.display="block";
+        document.getElementById("tec").style.display="none";
+        document.getElementById("aca").style.display="none";
+        document.getElementById("pro").style.display="none";
+        document.getElementById("msg").style.display="none";
+        document.getElementById("reg").style.diplay="none";
+    }
+    function technical(){
+        document.getElementById("per").style.display="none";
+        document.getElementById("edu").style.display="none";
+        document.getElementById("tec").style.display="block";
+        document.getElementById("aca").style.display="none";
+        document.getElementById("pro").style.display="none";
+        document.getElementById("msg").style.display="none";
+        document.getElementById("reg").style.diplay="none";
+    }
+    function academic(){
+        document.getElementById("per").style.display="none";
+        document.getElementById("edu").style.display="none";
+        document.getElementById("tec").style.display="none";
+        document.getElementById("aca").style.display="block";
+        document.getElementById("pro").style.display="none";
+        document.getElementById("msg").style.display="none";
+        document.getElementById("reg").style.diplay="none";
+    }
+    function project(){
+        document.getElementById("per").style.display="none";
+        document.getElementById("edu").style.display="none";
+        document.getElementById("tec").style.display="none";
+        document.getElementById("aca").style.display="none";
+        document.getElementById("pro").style.display="block";
+        document.getElementById("msg").style.display="none";
+        document.getElementById("reg").style.diplay="none";
+    }
+    function contact(){
+        
+        document.getElementById("per").style.display="none";
+        document.getElementById("edu").style.display="none";
+        document.getElementById("tec").style.display="none";
+        document.getElementById("aca").style.display="none";
+        document.getElementById("pro").style.display="none";
+        document.getElementById("msg").style.display="block";
+        document.getElementById("reg").style.diplay="none";
+    }
+    </script>
+
+    
+   
+     
+
+</body>
+</html>
+    

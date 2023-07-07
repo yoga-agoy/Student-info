@@ -10,14 +10,13 @@
 </head>
 
 
-    <style>
+     <style>
    *{
         box-sizing :border-box;
-        padding:0;
-        margin:0;
+        padding: -8px;
+        margin: 0px;
         text-decoration: none;
         list-style:none;
-
     }
 
     body{
@@ -45,7 +44,9 @@
     }
     nav ul{
         float:right;
-        margin-right:20px;
+        margin-right: 23px;
+        margin-top: -8px;
+        text-align: -webkit-match-parent;
     }
     nav ul li{
         display: inline-block;
@@ -80,15 +81,14 @@
    }
    @media(max-width:930px){
        label.logo{
-           font-size:20px;
+           font-size: 16px;
            padding-left: 40px;
-
        }
        nav ul li a{
        font-size: 16px;
    }
 }
-@media (max-width:840px){
+@media (max-width: 840px){
     .checkbtn{
         display:block;
     }
@@ -115,9 +115,11 @@
     a:hover,a.active{
         background:none;
         color:#0082e6;
+        line-height: 15px;
     }
     #check:checked ~ ul{
-             left:0;
+             left: -1px;
+             width: auto;
     }
 }
    
